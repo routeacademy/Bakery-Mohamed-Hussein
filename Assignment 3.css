@@ -1,0 +1,535 @@
+/* Intialization*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Home section background */
+
+.home_background {
+  /* background-color: blueviolet; */
+  background-image: url(./images/drew-coffman-1872.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* nav bar */
+
+.nav_bar {
+  /* background-color: aquamarine; */
+  width: 100%;
+  height: 15%;
+  padding-left: 30px;
+}
+
+.nav__img {
+  /* background-color: green; */
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 300px 0px 0px;
+}
+
+.nav__ul {
+  /* background-color: red; */
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.nav__ul li {
+  /* background-color: blue; */
+  display: inline-block;
+  height: 100%;
+  list-style-type: none;
+  font-family: "Alegreya", serif;
+  font-size: 18px;
+  padding: 30px 16px;
+}
+
+.nav__ul a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.home_content {
+  /* background-color: white; */
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 140px 0px 0px 0px;
+
+}
+
+/* content of home section */
+
+.home_content h5 {
+  color: white;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.home_content h1 {
+  font-family: "Alegreya", serif;
+  margin: 15px 0px;
+  font-size: 75px;
+  font-weight: 400;
+  color: white;
+}
+
+.home_content p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  color: white;
+}
+
+.btn__home {
+  /* background-color: blue; */
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  margin: auto;
+}
+
+#btn_1 ,
+#btn_2 {
+  display: inline-block;
+  width: 45%;
+  height: 80%;
+  margin-top: 10px;
+  vertical-align: top;
+  border-radius: 5px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  padding-top:  17px;
+}
+
+#btn_1 {
+  background-color: rgb(104, 104, 82);
+  color: white;
+  border: none;
+  margin-right: 10px;
+
+}
+#btn_2 {
+  background-color: transparent;
+  color: white;
+border-bottom: 3px solid  white;
+border-top:3px solid white;
+border-left: 3px solid white;
+border-right:3px solid white;
+}
+
+/* who we are section */
+.main_container {
+  width: 85%;
+  height: 100%;
+  /* background-color: beige; */
+  text-align: center;
+  margin: auto;
+}
+.who_we_are {
+  width: 100%;
+  height: 100vh;
+}
+.who_we_are_img {
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+  /* background-color: azure; */
+  text-align: left;
+  padding: 100px 40px 0px 0px;
+}
+
+.who_we_are .text {
+  font-size: 17px;
+  font-family: "Alegreya sans", sans-serif;
+  font-weight: 400;
+  color: #686868;
+}
+
+.who_we_are_text {
+  /* background-color: aquamarine; */
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.who_we_are_text h2 {
+  padding-top: 160px;
+  font-size: 32px;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.who_we_are_text p {
+  font-size: 17px;
+  font-family: "Alegreya sans", sans-serif;
+  font-weight: 400;
+  color: #686868;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.who_we_are_text li,
+.contact_info li {
+  /* background-color: red; */
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.icon {
+  /* background-color: aquamarine; */
+  display: inline-block;
+}
+.text {
+  /* background-color: blue; */
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+.who_we_are_text img {
+  width: 44px;
+  /* background-color: blue; */
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: beige;
+}
+
+/* our location section */
+
+.our_location {
+  width: 100%;
+  height: 90vh;
+  background-color: #f8f8f8;
+}
+
+.our_location p {
+  font-size: 17px;
+  font-family: "Alegreya sans", sans-serif;
+  font-weight: 400;
+  color: #686868;
+}
+
+.our_location_text {
+  /* background-color: blue; */
+  width: 49%;
+  height: 100%;
+  padding-top: 100px;
+  text-align: left;
+  display: inline-block;
+}
+
+.our_location h2 {
+  padding-top: 120px;
+  font-size: 32px;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.our_location p {
+  font-size: 17px;
+  font-family: "Alegreya sans", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.our_location_img {
+  /* background-color: aqua; */
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+}
+
+.our_location_img img {
+  padding: 150px 0px 0px 50px;
+}
+
+/* our backing section */
+
+.our_baking {
+  width: 100%;
+  height: 107vh;
+  margin-bottom: 60px;
+}
+.our_baking h2 {
+  padding-top: 100px;
+  font-size: 30px;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+}
+.our_baking p {
+  font-size: 17px;
+  font-family: "Alegreya sans", sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 32px;
+}
+
+.superior_bread,
+.bagels,
+.cookies {
+  width: 33.333%;
+  /* background-color: blueviolet; */
+  float: left;
+  padding: 20px;
+}
+
+.our_baking img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.clear_fix {
+  clear: both;
+}
+
+.our_baking h3 {
+  font-size: 22px;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+}
+
+.our_baking p {
+  font-size: 17px;
+  font-family: "Alegreya sans", sans-serif;
+  font-weight: 400;
+  color: #686868;
+}
+
+/* contact information section */
+
+.contact_info {
+  width: 100%;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.contact_info .text {
+  font-size: 17px;
+  font-family: "Alegreya sans", sans-serif;
+  font-weight: 400;
+  color: #686868;
+}
+
+.contact_info_text {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  float: left;
+  padding-right: 120px;
+  /* background-color: green; */
+}
+
+.contact_info p {
+  font-size: 17px;
+  font-family: "Alegreya sans", sans-serif;
+  font-weight: 400;
+  color: #686868;
+}
+.contact_info_map {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  float: left;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  /* background-color: aqua */
+}
+
+.contact_info img {
+  width: 44px;
+  /* background-color: blue; */
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: beige;
+  background-color: #8e7754;
+}
+
+.contact_info h2 {
+  padding-top: 100px;
+  font-size: 32px;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.contact_info p {
+  font-size: 17px;
+  font-family: "Alegreya sans", sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 32px;
+}
+
+.contact_info iframe {
+  width: 100%;
+  height: 100%;
+  padding-left: 100px;
+}
+
+/* website footer */
+
+.footer_menu {
+  background-color: #403d38;
+  width: 100%;
+  height: 65vh;
+}
+/* .about_us {background-color: red; */
+
+/* .why_we_are_special {background-color: aquamarine;} */
+
+/* .opening_hours {background-color: green;} */
+
+.about_us,
+.why_we_are_special,
+.opening_hours,
+.contact_details {
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: left;
+  padding: 60px 16px 60px 16px;
+}
+
+.contact_details {
+  /* background-color:#1b1b1b; */
+  background-image: url(./images/contact-details-map.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.clear_fix {
+  clear: both;
+}
+
+.footer_menu img {
+  width: 14px;
+  text-align: left;
+  display: inline-block;
+  /* background-color: violet; */
+}
+
+.footer_menu ul {
+  list-style-type: none;
+}
+.footer_text {
+  /* background-color: blue; */
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+}
+.footer_menu li {
+  margin-bottom: 6px;
+  padding-bottom: 7px;
+}
+
+.footer_menu h4 {
+  font-size: 18px;
+  font-family: "Alegreya", serif;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.footer_menu p {
+  margin-bottom: 20px;
+}
+
+.footer_menu p,
+.footer_menu li {
+  font-size: 16px;
+  font-family: "Alegreya sans", sans-serif;
+  color: #969696;
+  font-weight: 400;
+  line-height: 1.86;
+}
+
+.footer_menu li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#last_item {
+  border-bottom: none;
+}
+.contact_details img {
+  width: 35px;
+  text-align: left;
+  display: inline-block;
+}
+
+.social_media img {
+  width: 40px;
+  border-radius: 50px;
+  background-color: #484540;
+}
+
+
+/* website footer logo & social media links */
+
+.footer_logo {
+  background-color: #353330;
+  padding: 50px 0px 40px;
+  width: 100%;
+  height: 45vh;
+}
+
+.logo {
+  width: 100%;
+  height: 33.3333%;
+  /* background-color: red; */
+  padding-top: 10px;
+}
+
+.footer_logo p {
+  margin-top: 50px;
+  font-size: 15px;
+  font-family: "Alegreya sans", sans-serif;
+  color: #777777;
+}
+
+.social_media {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 33.333%;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+
+#fb:hover {
+  background-color: #4267b2;
+}
+#google:hover {
+  background-color: #db4437;
+}
+#in:hover {
+  background-color: #0e76a8;
+}
+#twitter:hover {
+  background-color: #1da1f2;
+}
